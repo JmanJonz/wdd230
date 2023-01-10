@@ -4,6 +4,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 header{
+    margin-top: 40px;
     border-radius: 10px;
     height: 150px;
     text-align: center;
