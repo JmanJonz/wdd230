@@ -1,0 +1,44 @@
+*
+{
+    font-family: "Sofia Sans",'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+header
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+main
+{
+    margin: 9px;
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+    section
+        {
+            padding-top: 0px;
+            width: 28vw;
+            background-color: rgb(243, 238, 238);
+        }
+        section h1
+        {
+            margin-top: 0;
+            padding-top: 0px;
+            background-color: gray;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            color: white;
+        }
+        img
+        {
+                width: 28vw;
+        }
+    footer
+    {
+        background-color: black;
+        color: white;
+    }
+
