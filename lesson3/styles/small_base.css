@@ -29,6 +29,9 @@ p, li{
 #logo{
     max-width: 150px;
 }
+table, th, tr, td{
+    border: 2px solid black;
+}
 #large{
     font-family: "Roboto";
     font-size: 150%;
