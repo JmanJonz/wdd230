@@ -1,0 +1,42 @@
+*{
+    background-color: #F7F6F4;
+    max-width: 97vw;
+    font-family: "Roboto",'Times New Roman', Times, serif;
+}
+nav a{
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-size: 35px;
+    background-color: #B4A28F;
+    color: #1A62A3;
+}
+nav a:hover{
+    font-size: 40px;
+    font-style: italic;
+}
+h1, h2, h3{
+    color: #005099;
+
+}
+p, li{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 105%;
+}
+#logo{
+    max-width: 150px;
+}
+#large{
+    font-family: "Roboto";
+    font-size: 150%;
+    font-weight: bold;
+    color: #005099;
+}
+#small{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 150%;
+}
