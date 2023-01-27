@@ -7,8 +7,11 @@
     <!--The title and the description are both used big time for SEO!!-->
     <title></title>
     <meta name="description" content="">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="Your own default stylesheet">
+    <link rel="stylesheet" href="styles/a_small_foundation.css">
+    <link rel="stylesheet" href="styles/b_medium.css">
+    <link rel="stylesheet" href="styles/c_large.css">
+
 </head>
 <body>
     <header>
