@@ -1,0 +1,24 @@
+*
+{
+    background-color: #f7f6f4;
+    color: #1a62a3;
+    font-family: "Montserrat",'Times New Roman', Times, serif;
+
+}
+h1, h2, h3, h4, h5
+{
+    font-family: "Roboto",'Times New Roman', Times, serif;
+}
+header
+{
+background-color: #b4a28f;
+}
+img
+{
+    width: 75px;
+}
+footer
+{
+    background-color: #b4a28f;
+
+}
