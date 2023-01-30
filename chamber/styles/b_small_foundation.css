@@ -53,6 +53,16 @@ header h1,h2,#date,div
 {
 background-color: #b4a28f;
 }
+h1
+{
+    font-size: 160%;
+}
+
+h2
+{
+    font-size: 100%;
+}
+
 #menu
 {
     list-style: none;
@@ -79,7 +89,7 @@ ul li
 {
     background-color: rgb(180, 162, 143, 75%);
     margin-top: 1px;
-    font-size: 200%;
+    font-size: 175%;
 }
 
 ul li:hover
@@ -93,6 +103,20 @@ img
     width: 75px;
     margin-left: 11px;
     margin-top: 11px;
+}
+.social
+{
+    background-color: transparent;
+}
+.socialf
+{
+    margin-left: 95px;
+}
+
+.sociall
+{
+    width: 25px;
+    margin-top: 23px;
 }
 li
 {
