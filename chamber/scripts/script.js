@@ -16,4 +16,8 @@ function DoIt()
 {
     menu.classList.toggle("open");
 }
-toggle.addEventListener("click", DoIt )
+toggle.addEventListener("click", DoIt );
+
+// Last mod for website footer
+const lastmod = document.lastModified;
+document.querySelector("#lastmod").innerHTML = "Last Modified: " + lastmod;
