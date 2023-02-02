@@ -1,10 +1,53 @@
-@media only screen and (min-width: 500px) and (max-width: 1000px)
+@media only screen and (min-width: 600px) and (max-width: 1000px)
 {
     main
     {
         display: grid;
         width: 100%;
+        grid-template-columns: repeat(6, 1fr);
     }
+
+    /* order of elements*/
+    #hero
+    {
+        order: -7;
+        grid-column: 1/7;
+    }
+
+    #news
+    {
+        order: -6;
+        grid-column: 1/7;
+
+    }
+
+    #highlights
+    {
+        order: -5;
+        grid-column: 1/7;
+
+    }
+
+    #join
+    {
+        order: -4;
+        grid-column: 1/7;
+
+    }
+    #events
+    {
+        order: -3;
+        margin-right: 2px;
+        grid-column: 1/5;
+        height: 165px;
+
+    }
+    #weather
+    {
+        grid-column: 5/7;
+    }
+
+
 
     #highlights
     {
@@ -23,5 +66,42 @@
     {
         width: 100%;
     }
+    #social{margin-right: 30px; padding-top: 6px;}
 
+    /* Footer Styles */
+    #footertop
+    {
+        padding-top: 8px;
+        padding-bottom: 8x;
+        display: flex;
+        justify-content: space-between;
+    }
+    #footerimage
+    {
+        margin: 0;
+        margin-left: 8px;
+        margin-bottom: 8px;
+        justify-self: start;
+    }
+    #footertopleft
+    {
+        width: 250px;
+        margin-right: 30px;
+    }
+    #footertopright
+    {
+        margin-right: 30px;
+    }
+    #footerbottom
+    {
+        border-top: solid #1a62a3 1px;
+        display: flex;
+        padding-top: 7px;
+    }
+    #copyright
+    {
+        border-top: none;
+        margin-top: 0;
+        padding-top: 0;
+    }
 }

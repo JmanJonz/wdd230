@@ -5,7 +5,7 @@
     color: #1a62a3;
     font-family: "Montserrat",'Times New Roman', Times, serif;
     font-weight: bold;
-    max-width: 100vw;
+    max-width: 98vw;
 
 }
 h1
@@ -27,35 +27,54 @@ header
 {
 background-color: #b4a28f;
 }
-
-#headertitle
-{
-    margin-bottom: 1px;
-}
-
-#subthing
-{
-    margin-top: 1px;
-    background-color: #b4a28f;
-    font-size: 50%;
-}
-
 header div
 {
+    width: 98vw;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+}
+#maintitle
+{
+    display: grid;
+    justify-self: start;
+}
+#subthing
+{
+    align-self: start;
+    margin-top: 0;
+}
+#social
+{
+    justify-self: end;
+    justify-content: end;
+    background-color: #b4a28f;
+    margin-right: 8px;
+    padding-top: 6px;
 
+}
+#sociall
+{
+    background-color: transparent;
+}
+.social
+{
+    background-color: transparent;
+}
+.sociall
+{
+    max-width: 24px;
 }
 
 header #toggle
 {
     display: block;
-    margin-top: 8px;
-    margin-right: 8px;
     background-color: #b4a28f;
     color: #1a62a3;
     border: none;
     font-size: 200%;
+    grid-column: 12/13;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -87,6 +106,10 @@ h2
     margin-top: 0;
     display: none;
 }
+#menularge
+{
+    display: none;
+}
 
 #menu.open
 {
@@ -112,27 +135,6 @@ ul li:hover
     color: #b4a28f;
     background-color: #1a62a3;
 }
-img
-{
-    display: block;
-    width: 75px;
-    margin-left: 11px;
-    margin-top: 11px;
-}
-.social
-{
-    background-color: transparent;
-}
-.socialf
-{
-    margin-left: 125px;
-}
-
-.sociall
-{
-    width: 25px;
-    margin-top: 84%;
-}
 li
 {
     background-color: ;
@@ -150,7 +152,7 @@ main
 }
 main section
 {
-    max-width: 100vw;
+    max-width: 98vw;
     background-color: #E0EAF4;
     min-height: 100px;
     margin-top: 3px;
@@ -181,6 +183,11 @@ footer
     text-align: center;
 
 }
+
+#copyyear
+{
+    background-color: #b4a28f;
+}
 footer h1, h2, h3, p
 {
     background-color: #b4a28f;
@@ -201,16 +208,17 @@ footer p
 
 #copyright
 {
-    border-bottom: #1a62a3 1px solid;
-    padding-bottom: 7px;
-}
-
-#name
-{
+    border-top: #1a62a3 1px solid;
     padding-top: 7px;
 }
+
 
 #lastmod
 {
     padding-bottom: 5px;
+}
+#location{padding-bottom: 7px;}
+img
+{
+    max-width: 100px;
 }
