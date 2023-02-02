@@ -28,6 +28,11 @@
         text-decoration: none;
         background-color: #b4a28f;
     }
+    #menularge > *:hover
+    {
+        background-color: #1a62a3;
+        color: #b4a28f;
+    }
     li
     {
         margin-right: 15px;
