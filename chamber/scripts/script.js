@@ -1,7 +1,7 @@
 //get date and make it update on site header
 const today = new Date();
 const dayOfWeek = today.toLocaleDateString('en-US', { weekday: 'long' });
-const date = today.getUTCDate() - 1;
+const date = today.getUTCDate();
 const month = today.toLocaleDateString('en-US', { month: 'long' });
 const year = today.getUTCFullYear();
 const formattedDate = `${dayOfWeek}, ${date} ${month} ${year}`;
