@@ -97,7 +97,6 @@
     #footertop
     {
         padding-top: 8px;
-        padding-bottom: 8x;
         display: flex;
         justify-content: space-between;
     }
@@ -132,4 +131,3 @@
     }
 }
 
-}
