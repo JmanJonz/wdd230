@@ -92,6 +92,10 @@
         grid-row: 3/4;
         margin-left: 3px;
     }
+    #lastspotlight
+{
+    display: block;
+}
 
     /* Footer Styling */
     #footertop
