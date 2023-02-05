@@ -147,6 +147,10 @@ ul li:hover
     text-align: center;
 }
 
+#headerimage{
+    margin-top: 3px;
+}
+
 /*main styles*/
 main
 {
