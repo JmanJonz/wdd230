@@ -5,7 +5,7 @@
     color: #0c3558;
     font-family: "Montserrat",'Times New Roman', Times, serif;
     font-weight: bold;
-    max-width: 98vw;
+    max-width: 100vw;
     
 
 }
@@ -39,7 +39,7 @@ margin: 0 auto;
 }
 header div
 {
-    width: 95vw;
+    width: 96vw;
     display: flex;
     align-items: center;
     background-color: #b4a28f;
@@ -47,14 +47,14 @@ header div
 }
 #maintitle
 {
-    font-size: 10px;
+    font-size: .6rem;
     display: grid;
     justify-self: start;
     min-width: 45%;
 }
 #subthing
 {
-    font-size: 9px;
+    font-size: .5rem;
     align-self: start;
     margin-top: 0;
 }
@@ -167,14 +167,16 @@ main
     margin-bottom: 8px;
     font-weight: bolder;
     margin: 0 auto;
+    width: 100vw;
 
 
 }
 main section
 {
-    max-width: 98vw;
+    max-width: 100vw;
     background-color: #E0EAF4;
     min-height: 100px;
+    margin: 0 auto;
     margin-top: 3px;
 }
 
