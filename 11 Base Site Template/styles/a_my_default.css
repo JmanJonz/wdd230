@@ -7,11 +7,23 @@
 
   }
 
-  /* Reset styles for body element */
+  /* Reset styles for standard page sections */
   body{
     margin: 0 auto;
   }
   
+  header{
+
+  }
+
+  main{
+
+  }
+
+  footer{
+
+  }
+
   /* Reset styles for commonly used elements */
   body,
   h1, h2, h3, h4, h5, h6,

@@ -6,7 +6,11 @@
     font-family: "Montserrat",'Times New Roman', Times, serif;
     font-weight: bold;
     max-width: 98vw;
+    
 
+}
+body{
+    margin: 0 auto;
 }
 
 h1
@@ -30,6 +34,7 @@ header
 background-color: #b4a28f;
 font-weight: bolder;
 border: #0c3558 solid 2px;
+margin: 0 auto;
 
 }
 header div
@@ -38,6 +43,7 @@ header div
     display: flex;
     align-items: center;
     background-color: #b4a28f;
+    margin: 0 auto;
 }
 #maintitle
 {
@@ -160,6 +166,8 @@ main
     margin-top: 8px;
     margin-bottom: 8px;
     font-weight: bolder;
+    margin: 0 auto;
+
 
 }
 main section
@@ -199,6 +207,8 @@ footer
     text-align: center;
     font-weight: bolder;
     border: #0c3558 solid 2px;
+    margin: 0 auto;
+
 
 
 }

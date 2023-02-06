@@ -6,9 +6,21 @@
   max-width: 100vw;
 }
 
-/* Reset styles for body element */
+/* Reset styles for standard page sections */
 body{
   margin: 0 auto;
+}
+  
+header{
+
+}
+
+main{
+
+}
+
+footer{
+
 }
 
 /* Reset styles for commonly used elements */
