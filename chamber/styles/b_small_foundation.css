@@ -41,12 +41,14 @@ header div
 }
 #maintitle
 {
+    font-size: 10px;
     display: grid;
     justify-self: start;
-    min-width: 55%;
+    min-width: 45%;
 }
 #subthing
 {
+    font-size: 9px;
     align-self: start;
     margin-top: 0;
 }
