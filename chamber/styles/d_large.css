@@ -6,6 +6,13 @@
         display: none;
         width: 50px;
     }
+    #maintitle{
+        font-size: 1rem;
+    }
+
+    #subthing{
+        font-size: .85rem;
+    }
     #menu
     {
         display: none;
@@ -64,6 +71,7 @@
         max-width: 22vw;
         min-height: 150px;
     }
+
     #events
     {
         grid-column: 1/2;
@@ -74,6 +82,16 @@
         grid-column: 2/4;
         grid-row: 1/3;
         margin-left: 3px;
+        position: relative;
+        
+    }
+    #hero img{
+        width: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
     }
     #weather
     {

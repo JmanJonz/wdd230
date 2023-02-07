@@ -7,6 +7,14 @@
         grid-template-columns: repeat(6, 1fr);
     }
 
+    #maintitle{
+        font-size: 1rem;
+    }
+
+    #subthing{
+        font-size: .85rem;
+    }
+
     /* order of elements*/
     #hero
     {

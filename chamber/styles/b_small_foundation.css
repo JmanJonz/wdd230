@@ -45,6 +45,10 @@ header div
     background-color: #b4a28f;
     margin: 0 auto;
 }
+header img{
+    max-width: 100px;
+    margin: 3 5;
+}
 #maintitle
 {
     font-size: .6rem;
@@ -178,6 +182,32 @@ main section
     min-height: 100px;
     margin-top: 3px;
 }
+#hero{
+    width: 100%;
+    min-height: 333px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    margin: auto auto;
+    justify-self: center;
+}
+#hero img
+{
+    min-height: 100%;
+    min-width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+
+    
+}
+.actioncall{
+    border: none;
+    width: 25%;
+}
 
 main section div
 {
@@ -248,7 +278,9 @@ footer p
     padding-bottom: 5px;
 }
 #location{padding-bottom: 7px;}
-img
+footer img
 {
     max-width: 100px;
 }
+
+
