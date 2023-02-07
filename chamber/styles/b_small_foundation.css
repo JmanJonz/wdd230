@@ -71,6 +71,9 @@ header img{
     padding-top: 6px;
 
 }
+.social1{
+    margin-right: 3px;
+}
 #sociall
 {
     background-color: transparent;
@@ -169,9 +172,12 @@ main
 {
     margin-top: 8px;
     margin-bottom: 8px;
-    font-weight: bolder;
+    font-weight: 900;
     margin: 0 auto;
     width: 100vw;
+    color: #49423a;
+    font-size: 1.3rem;
+    
 
 
 }
@@ -181,6 +187,27 @@ main section
     background-color: #E0EAF4;
     min-height: 100px;
     margin-top: 3px;
+    text-align: center;
+
+}
+section h2{
+    text-decoration: underline #61574b;
+    background-color: #E0EAF4;
+}
+
+section h3{
+    background-color: #e0eaf4;
+    font-size: 1.1rem;
+}
+section p{
+    background-color: #E0EAF4;
+    font-size: .9rem;
+}
+#events{
+    text-align: center;
+}
+#events > *{
+    margin-top: 12px;
 }
 #hero{
     width: 100%;
@@ -194,15 +221,27 @@ main section
 #hero img
 {
     min-height: 100%;
-    min-width: 700px;
+    min-width: 600px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    
-
-    
+}
+#hero h2{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    background-color: transparent;
+    font-size: 1.7rem;
+    color: #49423a;
+    text-decoration: none;
+}
+#hero button
+{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    padding: 5px;
 }
 .actioncall{
     border: none;
@@ -228,6 +267,27 @@ main section span
 #lastspotlight
 {
     display: none;
+}
+#weather img{
+    background-color: transparent;
+}
+#join{
+    display: none;
+}
+#join h2{
+ margin-top: 8px;
+text-decoration: none;
+}
+#join h2 span{
+    background-color: #b4a28f;
+    padding: 5px;
+}
+#join p{
+    margin-top: 15px;
+}
+.underline{
+    border-bottom: 1px solid #49423a;
+    background-color: #E0EAF4;
 }
 
 /* footer styles*/
