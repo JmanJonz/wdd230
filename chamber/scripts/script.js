@@ -25,3 +25,15 @@ document.querySelector("#lastmod").innerHTML = "Last Modified: " + lastmod;
 // current year for copyright
 document.querySelector("#copyyear").innerHTML = today.getFullYear();
 
+// Show banner for mondays and tuesdays only
+const banner = document.querySelector(".banner");
+if (dayOfWeek === "Monday" || dayOfWeek === "Tuesday")
+{
+    banner.id = "show"
+}
+else
+{
+    banner.id = "dontshow"
+}
+
+

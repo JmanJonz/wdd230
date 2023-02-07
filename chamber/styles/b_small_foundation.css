@@ -28,6 +28,23 @@ h1, h2, h3, h4, h5, p, span
     font-family: "Roboto",'Times New Roman', Times, serif;
     font-weight: bold;
 }
+.banner{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 45px;
+}
+.bannerwords{
+    background-color: #0c3558;
+    color: #b4a28f;
+    padding: 7px;
+    height: 43px;
+}
+#dontshow{
+    display: none;
+}
 /*header styles*/
 header
 {
@@ -44,6 +61,8 @@ header div
     align-items: center;
     background-color: #b4a28f;
     margin: 0 auto;
+    margin-top: 45px;
+
 }
 header img{
     max-width: 100px;
