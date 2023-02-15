@@ -21,7 +21,9 @@
     </div>
     <header>
         <div>
-            <img id="headerimage" src="images/logo.png" alt="Logo Image">
+            <a class="logolink" href="index.html">
+                <img id="headerimage" src="images/logo.png" alt="Logo Image">
+            </a>
             <div id="maintitle">
                 <h1 id="headertitle">Chamber of Valley County</h1>
                 <p id="subthing">Supporting Growth</p>
@@ -58,7 +60,10 @@
     </header>   
     <main>
         <section id="hero">
-                <img class = "actualimage" src="images/optmountainimage(1).png" alt="hero image">
+                <picture>
+                    <source media="(max-width: 500px)" srcset="images/small450px.png">
+                    <img class = "actualimage" src="images/large1800px.png" alt="hero image">
+                </picture>
                 <h2>Welcome to Valley County</h2>
                 <button>Join the Chamber</button>
         </section>
