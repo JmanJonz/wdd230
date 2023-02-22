@@ -1,0 +1,27 @@
+@media (min-width: 500px) and (max-width: 1000px)
+{
+    /* Styles for all elements */
+    *{
+
+    }
+
+    /* Styles for body element (The whole page) */
+    body{
+
+    }
+
+    /* Styles for the header */
+    header{
+
+    }
+
+    /* Styles for the main section of the page */
+    main{
+
+    }
+
+    /* Styles for the footer */
+    footer{
+        
+    }
+}

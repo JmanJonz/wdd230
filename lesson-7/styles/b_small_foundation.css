@@ -1,0 +1,50 @@
+/* Styles for all elements */
+*{
+
+}
+
+/* Styles for body element (The whole page) */
+body{
+
+}
+
+/* Styles for the header */
+header{
+
+}
+
+/* Styles for the main section of the page */
+main{
+    text-align: center;
+    
+}
+main div > *, main h1{
+    margin-bottom: 18px;
+}
+main h1{
+    font-size: 2rem;
+    border: black solid 4px;
+    border-radius: 8%;
+    max-width: 80;
+}
+main div{
+    display: flex;
+    flex-direction: column;
+}
+
+div picture img{
+    border: black solid 4px;
+    border-radius: 8%;
+}
+img{
+    filter: blur(3px);
+    transition: filter 0.5s ease-in-out;
+}
+img.loaded{
+    filter: none;
+}
+
+/* Styles for the footer */
+footer{
+    
+}
