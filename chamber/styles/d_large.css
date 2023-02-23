@@ -30,12 +30,12 @@
         background-color: #b4a28f;
         list-style: none;
     }
-    #menularge > *
+    #menularge li > *
     {
         text-decoration: none;
         background-color: #b4a28f;
     }
-    #menularge > *:hover
+    #menularge li > *:hover
     {
         background-color: #1a62a3;
         color: #b4a28f;
