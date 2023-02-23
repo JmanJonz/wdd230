@@ -155,6 +155,13 @@ h2
 {
     display: none;
 }
+#menu li a{
+    font-size: 1.5rem;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 
 #menu.open
 {
