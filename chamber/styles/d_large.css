@@ -155,5 +155,16 @@
         margin-top: 0;
         padding-top: 0;
     }
+    
+    /* Discover Page styles */
+    #discover{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .img_gallery{
+        grid-column: 5/7;
+    }
 }
+
+
 
