@@ -115,4 +115,7 @@
     }
 
     /* ---------discover page---------- */
+    .img_gallery picture img:hover{
+        width: 99%;
+    }
 }

@@ -155,7 +155,7 @@
         margin-top: 0;
         padding-top: 0;
     }
-    
+
     /* Discover Page styles */
     #discover{
         display: grid;
@@ -163,6 +163,9 @@
     }
     .img_gallery{
         grid-column: 5/7;
+    }
+    .img_gallery picture img:hover{
+        width: 99%;
     }
 }
 

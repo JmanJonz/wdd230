@@ -374,6 +374,16 @@ footer img
 }
 
 /* ------------------Discover Page Styles----------------*/
+.last_visit_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #0c3558;
+}
+.last_visit_container h3, #last_visit{
+    background-color: transparent;
+    color: #b4a28f;
+}
 #discover{
     background-color: #E0EAF4;
     display: grid;
@@ -408,6 +418,7 @@ footer img
     display: block;
     margin: 6px auto;
 }
+
 .img_gallery picture{
     background-color: transparent;
 }
