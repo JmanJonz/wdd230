@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, p, span
     left: 0;
     width: 100vw;
     height: 45px;
+    z-index: 999;
 }
 .bannerwords{
     background-color: #0c3558;
@@ -433,6 +434,74 @@ footer img
 
 .img_gallery picture{
     background-color: transparent;
+}
+
+/* -----------------Join Page______________*/
+.join_main{
+    background-color: #E0EAF4;
+}
+form{
+    width: 98vw;
+    background-color: #E0EAF4;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.join_main form > *, .join_main form fieldset > *,.join_main form fieldset label > *{
+    background-color: white;
+    display: block;
+    text-align: start;
+}
+#mem_level2{
+    display: flex;
+    align-items: center;
+}
+#mem_level3{
+    order: -1;
+    margin-right: 10px;
+    padding-bottom: 12;
+    padding-top: 12;
+}
+
+#join_title{
+    white-space: nowrap;
+    display: inline;
+    margin-top: 8px;
+    padding-bottom: 15px;
+    text-decoration: underline;
+    background-color: #E0EAF4;
+    font-size: 7vw;
+}
+fieldset{
+    margin-top: 16px;
+    display: block;
+    width: 95vw;
+    margin-left: 50vw;
+    transform: translate(-50%);
+    border-width: 7px;
+    border-radius: 20px;
+    padding: 2%;
+}
+#legend{
+    padding-bottom: 1px;
+    margin-left: 4%;
+    border-radius: 8px;
+}
+.f_name{
+    margin-top: 15px;
+}
+label{
+    font-size: 1rem;
+}
+input{
+    min-height: 40px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+textarea{
+    border-radius: 8px;
+}
+body{
+    background-color: #E0EAF4;
 }
 
 
