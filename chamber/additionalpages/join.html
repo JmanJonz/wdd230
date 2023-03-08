@@ -61,8 +61,17 @@
         <div id="date">Javascript entes date here</div>
     </header>   
     <main class="join_main">
-        <form action="thankyou.html" method="get">
+        <form class="form_class" action="thankyou.html" method="get">
             <h1 id="join_title">Apply To Become A Member</h1>
+            <div class="benefits_descript">
+                <h2>Membership Benefits</h2>
+                <ul>
+                    <li>NP Membership: No fee and limited benefits.</li>
+                    <li>Bronze Membership: Access to trainings and discounts on events.</li>
+                    <li>Silver Membership: All Bronze benefits, plus advertising opportunities.</li>
+                    <li>Gold Membership: All Silver benefits, plus priority advertising on the home page.</li>
+                </ul>
+            </div>
             <fieldset>
                 <legend id="legend">Applicant Information</legend>
                 <label class="f_name">First Name *<input type="text" name="f_name" required></label>
@@ -78,9 +87,9 @@
                     <label id="mem_level2"><input id="mem_level3" type="radio" name="mem_level" value="Gold">Gold</label>
                     <label id="mem_level2"><input id="mem_level3" type="radio" name="mem_level" value="Non Profit">Non Profit (Free)</label>
                 </div>
-                <label>Brief Business Description<textarea name="biz_descript" id="" cols="30" rows="10"></textarea></label>
+                <label class="bizinessdescript">Brief Business Description<textarea name="biz_descript" id="" cols="30" rows="10"></textarea></label>
                 <label><input type="hidden" name="date" value=""></label>
-                <label><input type="submit" value="Send Application"></label>
+                <label><input type="submit" name="submit" value="Send Application"></label>
             </fieldset>
         </form>
     </main>

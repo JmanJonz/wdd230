@@ -450,16 +450,26 @@ form{
     background-color: white;
     display: block;
     text-align: start;
+    color: #0c3558;
+}
+#radio_div h2{
+    background-color: white;
+    font-weight: lighter;
+    margin-top: 23px;
 }
 #mem_level2{
     display: flex;
     align-items: center;
+    background-color: white;
 }
 #mem_level3{
     order: -1;
     margin-right: 10px;
     padding-bottom: 12;
     padding-top: 12;
+    background-color: white;
+    color: #0c3558;
+    border: 3px #0c3558 solid;
 }
 
 #join_title{
@@ -480,6 +490,7 @@ fieldset{
     border-width: 7px;
     border-radius: 20px;
     padding: 2%;
+    border-color: #0c3558;
 }
 #legend{
     padding-bottom: 1px;
@@ -499,9 +510,43 @@ input{
 }
 textarea{
     border-radius: 8px;
+    width: 97%;
 }
 body{
     background-color: #E0EAF4;
+}
+[name="biz_descript"]{
+    margin-top: 7px;
+    margin-bottom: 8px;
+}
+label:has(>[name="biz_descript"]){
+    margin-top: 20px;
+}
+[name="submit"]{
+    padding: 5px;
+    border-color: gray;
+}
+.benefits_descript{
+    background-color: #E0EAF4;
+    width: 95vw;
+    text-align: center;
+    border: 2px solid #0c3558;
+    border-radius: 5px;
+    display: block;
+    margin: 25px auto;
+    
+}
+.benefits_descript *{
+    background-color: #E0EAF4;
+    padding: 8px 3px;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.benefits_descript h2{
+    font-weight: bolder;
+    font-size: 1.7rem;
+    padding-bottom: 7;
+    border-bottom: 2px #0c3558 solid;
 }
 
 

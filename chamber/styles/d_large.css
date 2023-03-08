@@ -167,6 +167,38 @@
     .img_gallery picture img:hover{
         width: 99%;
     }
+    /*-------------join page----------------*/
+    .join_main{
+        width: 100vw;
+        display: initial;
+    }
+    .form_class{
+        max-width: initial;
+        width: 100vw;
+        margin: 0 0;
+        display: grid;
+        grid-template-columns: repeat(10, 10vw);
+        grid-template-rows: repeat(2, auto);
+        margin-bottom: 15px;
+    }
+    .form_class h1{
+        grid-column: 1/11;
+        grid-row: 1/2;
+        justify-self: center;
+
+    }
+    .form_class fieldset{
+        margin: initial;
+        transform: initial;
+        grid-column: 2/6;
+        grid-row: 2/3;
+        width: 40vw;
+    }
+    .form_class div{
+        grid-column: 7/10;
+        width: 100%;
+        align-self: start;
+    }
 }
 
 
