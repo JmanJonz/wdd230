@@ -463,7 +463,6 @@ form{
     background-color: white;
 }
 #mem_level3{
-    order: -1;
     margin-right: 10px;
     padding-bottom: 12;
     padding-top: 12;
@@ -536,6 +535,10 @@ label:has(>[name="biz_descript"]){
     margin: 25px auto;
     
 }
+.benefits_descript ul li:hover{
+    background-color: #E0EAF4;
+    color: #0c3558;
+}
 .benefits_descript *{
     background-color: #E0EAF4;
     padding: 8px 3px;
@@ -547,6 +550,23 @@ label:has(>[name="biz_descript"]){
     font-size: 1.7rem;
     padding-bottom: 7;
     border-bottom: 2px #0c3558 solid;
+}
+
+/*--------------thank you--------------*/
+.thank_you_main{
+    display: initial;
+    background-color: #E0EAF4;
+}
+.form_submit_confirmation{
+    width: 90vw;
+    background-color: #E0EAF4;
+    height: 60vw;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.form_submit_confirmation h1{
+    background-color: #E0EAF4;
+
 }
 
 

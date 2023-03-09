@@ -199,6 +199,10 @@
         width: 100%;
         align-self: start;
     }
+    /*thank you*/
+    .form_submit_confirmation{
+        max-width: 100%;
+    }
 }
 
 
