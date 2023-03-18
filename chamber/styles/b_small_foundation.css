@@ -569,4 +569,85 @@ label:has(>[name="biz_descript"]){
 
 }
 
+/* ----------------Discovery Page Styles----------------*/
+main.directory{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100vw);
+    justify-items: center;
+    background-color: #0c3558;
+    border: solid 4px #E0EAF4;
+}
+.directory_buttons{
+    display: flex;
+    flex-direction: row;
+    margin: 4px 0px;
+    gap: 15px;
+    background-color: #0c3558;
+}
+.directory_buttons>*:hover{
+    border: 5px #b4a28f solid;
+    cursor: pointer;
+}
+.directory_buttons > *{
+    background-color: #0c3558;
+    color: #b4a28f;
+    border: #b4a28f 2px solid;
+    padding: 5px;
+}
+
+
+main.directory:first-of-type h2{
+    margin-top: 15px;
+}
+h1.directory{
+    width: auto;
+    grid-column: 1/-1;
+    justify-self: center;
+    color: white;
+    background-color: #0c3558;
+}
+img.discov{
+    max-width: 70%;
+    max-height: 60%;
+    border: #0c3558 3px solid;
+    margin-top: 30px;
+}
+section.discov{
+    height: 400px;
+    width: 100%;
+}
+section.discov:last-of-type{
+    margin-bottom: 3px;
+}
+a.discov{
+    display: block;
+    background-color: #E0EAF4;
+}
+/*----------------directory list view---------------*/
+img.list_view{
+    display: none;
+}
+section.list_view{
+    display: block;
+    width: 96vw;
+    margin-right: 2vw;
+}
+section.list_view:nth-of-type(2n), section.list_view:nth-of-type(2n) *{
+    background-color: white;
+}
+h2.list_view:nth-of-type(2n){
+    background-color: white;
+}
+a.list_view{
+    display: block;
+    background-color: #E0EAF4;
+}
+section.list_view:last-of-type{
+    margin-bottom: 8px;
+}
+
+
+
+
+
 

@@ -118,4 +118,49 @@
     .img_gallery picture img:hover{
         width: 99%;
     }
+    /*-------------directory page grid------------*/
+    main.directory{
+    display: grid;
+    grid-template-columns: repeat(2, 50vw);
+    justify-items: center;
+    background-color: #0c3558;
+    border: solid 4px #E0EAF4;
+    column-gap: 3px;
+    }
+    h1.directory{
+        display: grid;
+    }
+    div.directory_buttons{
+        grid-column: 1/3;
+    }
+    section.list_view:last-of-type{
+        margin-bottom: 30px;
+    }
+    /* -------------directory page list------ */
+    section.discov:last-of-type{
+        margin-bottom: 4px;
+    }
+    main.list_view{
+        display: initial;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        background-color: #0c3558;
+        border: solid 4px #E0EAF4;
+    }
+    section.list_view{
+        display: block;
+        width: 100vw;
+    }
+    section.list_view:last-of-type{
+        margin-bottom: 4px;
+    }
+    h1.list_view{
+        display: inline-block;
+        margin: 0 auto;
+    }
+    div.directory_buttons.list_view{
+        display: flex;
+        justify-content: center;
+    }
 }
