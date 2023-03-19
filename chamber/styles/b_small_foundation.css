@@ -59,11 +59,8 @@ header div
 {
     width: 96vw;
     display: flex;
-    align-items: center;
+    align-items: center; 
     background-color: #b4a28f;
-    margin: 0 auto;
-    margin-top: 45px;
-
 }
 .logolink{
     background-color: #b4a28f;
@@ -247,6 +244,9 @@ section p{
     display: block;
     margin: auto auto;
     justify-self: center;
+}
+.heroBackground{
+    display: none;
 }
 #hero img
 {

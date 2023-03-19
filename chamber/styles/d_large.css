@@ -84,8 +84,14 @@
         grid-row: 1/3;
         margin-left: 3px;
         position: relative;
-        margin-right: 5px;
-        
+        margin-right: 5px;        
+    }
+    .heroBackground{
+        all: initial;
+        background-color: #E0EAF4;
+        grid-column: 2/4;
+        grid-row: 1/3;
+
     }
     #join{
         display: block;
