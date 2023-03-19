@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../styles/d_large.css">
     <script src="../scripts/script.js" defer></script>
     <script src="../scripts/windchill.js" defer></script>
+    <script src="../scripts/weather.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -78,9 +79,9 @@
         </section>
         <section id="weather">
             <h2>Weather</h2>
-            <img src="../images/sunny_FILL0_wght400_GRAD0_opsz48.png" alt="sun images">
-            <h3 class="underline"> <span id="temp">28</span>°F</h3>
-            <p>Wind Speed: <span id="speed">5</span>mph</p>
+            <img class="weatherImage">
+            <h3 class="underline"> <span id="temp"></span>°F</h3>
+            <p>Wind Speed: <span id="speed"></span>mph</p>
             <p>Wind Chill: <span id="chill"></span>°F</p>
         </section>
         <section id="news">
@@ -132,6 +133,7 @@
         </div>
         <div id="footerbottom">
             <p id="copyright">©<span id="copyyear"></span> | Utah | Us</p>
+            <p>Weather Credit To: OpenWeatherMap</p>
             <h2 id="name">J. Ammon Jones</h2>
             <p id="project_name">Chamber of commerce | WDD Project</p>
             <p id="lastmod"></p>
