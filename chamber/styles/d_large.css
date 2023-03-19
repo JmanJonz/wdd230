@@ -168,7 +168,11 @@
         grid-template-columns: repeat(6, 1fr);
     }
     .img_gallery{
-        grid-column: 5/7;
+        grid-column: 2/6;
+        max-width: 100%;
+    }
+    .img_gallery picture img{
+        width: 75%;
     }
     .img_gallery picture img:hover{
         width: 99%;
