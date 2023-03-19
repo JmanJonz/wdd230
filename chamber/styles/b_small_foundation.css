@@ -649,6 +649,44 @@ a.list_view{
 section.list_view:last-of-type{
     margin-bottom: 8px;
 }
+/* ------------Contact Us------------ */
+div.contact{
+    display: initial;
+    text-align: center;
+}
+div.contact h1{
+    font-size: 2.7rem;
+    background-color: #0c3558;
+    color: #b4a28f;
+    text-decoration: underline;
+    margin-bottom: 2px;
+}
+div.contact p{
+    background-color: #0c3558;
+    color: #b4a28f;
+}
+div.contact h2{
+    background-color: #0c3558;
+    color: #b4a28f;
+    font-size: 1.5rem;
+}
+form.contact{
+    text-align: start;
+}
+form.contact label, form.contact input{
+    display: block;
+}
+
+form.contact input{
+    margin-bottom: 10px;
+}
+form.contact fieldset{
+    max-width: 90vw;
+}
+.subbmit{
+    margin-top: 6px;
+    padding: 3px;
+}
 
 
 
