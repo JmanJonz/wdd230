@@ -17,7 +17,6 @@ async function GetWeatherInfo(){
 // Use the api data to dynamically change page elements content
 async function UpdateWeatherContent(){
     const mccallWeatherData = await GetWeatherInfo();
-    console.log(mccallWeatherData);
 
     const imageAddress = `https://openweathermap.org/img/wn/${mccallWeatherData.weather[0].icon}@2x.png`;
     image.setAttribute("src", imageAddress);
