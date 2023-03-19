@@ -1,6 +1,7 @@
 // Reference to page elements
 const image = document.querySelector(".weatherImage");
 const temper = document.querySelector("#temp");
+const descript = document.querySelector(".weatherDescription");
 const windSpeed = document.querySelector("#speed");
 
 // Mccall Valley County weather url api
@@ -20,9 +21,17 @@ async function UpdateWeatherContent(){
 
     const imageAddress = `https://openweathermap.org/img/wn/${mccallWeatherData.weather[0].icon}@2x.png`;
     image.setAttribute("src", imageAddress);
+    image.setAttribute("alt", "Weather Icon");
+
+    descript.textContent = toTitleCase(mccallWeatherData.weather[0].description);
 
     temper.textContent = mccallWeatherData.main.temp.toFixed(0);
 
     windSpeed.textContent = mccallWeatherData.wind.speed.toFixed(0);
 }
 UpdateWeatherContent();
+function toTitleCase(str) {
+    return str.toLowerCase().split(' ').map(function(word) {
+      return word.replace(word.charAt(0), word.charAt(0).toUpperCase());
+    }).join(' ');
+  }
