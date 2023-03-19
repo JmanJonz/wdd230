@@ -277,6 +277,10 @@ section p{
     border: none;
     width: 25%;
 }
+.weatherImage{
+    width: 40px;
+    margin: -8px;
+}
 
 main section div
 {
