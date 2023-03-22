@@ -1,6 +1,6 @@
 const cards = document.querySelector("main.directory");
 async function loadJSON(){
-    const response = await fetch("../json_files/data.json");
+    const response = await fetch("json/data.json");
     const json = await response.json();
     const array = jsonToArray(json);
     CreateAndAddBusinessCards(array);

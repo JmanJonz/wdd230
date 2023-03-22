@@ -41,13 +41,13 @@ else
 const joinbttn = document.querySelector(".jzuz");
 joinbttn.style.cursor = "pointer";
 joinbttn.addEventListener("click", ()=>{
-    window.location.href = "../additionalpages/join.html"
+    window.location.href = "join.html"
 })
 
 const joinbttnn = document.querySelector(".jzuzz");
 joinbttnn.style.cursor = "pointer";
 joinbttnn.addEventListener("click", ()=>{
-    window.location.href = "../additionalpages/join.html"
+    window.location.href = "join.html"
 })
 
 
@@ -75,7 +75,7 @@ const p13 = high3.querySelector(".p1");
 const p23 = high3.querySelector(".p2");
 
 async function getBizzData(){
-    returnedData = await fetch("../json_files/data.json");
+    returnedData = await fetch("json/data.json");
     JSObject = await returnedData.json();
     return JSObject
 }
